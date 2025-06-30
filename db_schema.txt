@@ -1,0 +1,1091 @@
+Table: accounts_api_info
+  - id
+  - account_software_name
+  - api_url
+  - input_parameters
+  - status
+
+Table: accounts_item_info
+  - id
+  - account_software_name
+  - item_ref_id
+  - response
+  - entity_code
+  - price_book_sku_id
+
+Table: admin_master_roles
+  - role_id
+  - flag
+  - rct
+  - role_assign
+  - role_desc
+  - role_name
+  - role_short_code
+  - entity_code
+
+Table: announcement
+  - announcement_id
+  - description
+  - end_date
+  - product_id
+  - rct
+  - start_date
+  - title
+  - entity_code
+
+Table: api_data_records
+  - id
+  - api_type
+  - dist_id
+  - entity_code
+  - failed_record
+  - flag
+  - insert_record
+  - percantage
+  - total_record
+  - updated_record
+
+Table: api_data_status
+  - id
+  - active
+  - conflict_records_data
+  - dist_id
+  - entity_code
+  - failed_record
+  - status
+  - success_record
+  - total_record
+  - type
+  - duplicate
+  - failed_excel
+  - message
+
+Table: bank_details
+  - bank_detail_id
+  - neft_rtgs_ach_code
+  - account_name
+  - account_number
+  - address1
+  - address2
+  - bank_name
+  - bankbranch_and_city
+  - country
+  - rct
+  - status
+  - entity_code
+
+Table: bundle_details
+  - bundle_details_id
+  - quantity
+  - billing_freq
+  - bundle_discount
+  - cost_price
+  - currency
+  - discount_amount
+  - final_price
+  - max_qty
+  - min_qty
+  - mrp_price
+  - selling_price
+  - sku_name
+  - term
+  - bundle_master_id
+  - price_book_id
+  - price_book_sku_id
+  - publisher
+
+Table: bundle_master
+  - bundle_id
+  - billing_freq_bundle_master
+  - bundle_discount_price
+  - bundle_name
+  - bundle_price
+  - bundle_master_discount
+  - bundle_sku_id
+  - discount_type
+  - discount_value
+  - file_logo
+  - file_path
+  - long_description
+  - short_description
+  - term_bundle_master
+  - domain_required
+
+Table: business_type
+  - business_type_id
+  - business_name
+  - parent_entity_code
+  - rct
+  - entity_code
+
+Table: category_features
+  - cat_feat_id
+  - feature_name
+  - entity_code
+  - service_grp_id
+
+Table: country
+  - country_id
+  - code
+  - country_flag
+  - currency_code
+  - currency_flag
+  - currency_name
+  - currency_symbol
+  - dial_code
+  - name
+
+Table: deal_source
+  - lead_source_id
+  - parent_entity_code
+  - rct
+  - source_name
+  - entity_code
+
+Table: deal_status
+  - lead_status_id
+  - parent_entity_code
+  - rct
+  - status_name
+  - entity_code
+
+Table: deal_title
+  - lead_title_id
+  - parent_entity_code
+  - rct
+  - title_name
+  - entity_code
+
+Table: debit_credit_note
+  - id
+  - amount
+  - description
+  - dr_cr_no
+  - flag
+  - parent_entity_code
+  - reference_no
+  - transaction_againest
+  - transaction_date
+  - transaction_details
+  - transaction_mode
+  - entity_code
+
+Table: delivery_pending
+  - dp_id
+  - order_item_id
+  - parent_entity_code
+  - rct
+  - entity_code
+  - delivery_workflow_id
+  - sku_id
+
+Table: delivery_workflow
+  - id
+  - delivery_group_name
+  - delivery_work_flow
+  - rct
+  - entity_code
+  - price_book_id
+
+Table: distributor_api_credentials_setup
+  - id
+  - api_url
+  - dist_name
+  - input_parameters
+  - status
+  - vendors
+  - dist_id
+
+Table: distributor_entity_relation
+  - id
+  - cust_data
+  - dist_cust_ref_id
+  - dist_id
+  - parent_entity_code
+  - entity_code
+
+Table: distributor_info
+  - id
+  - distributor_name
+  - password
+  - rct
+  - username
+  - entity_code
+
+Table: email_template_custom_variable
+  - id
+  - category_name
+  - label_name
+  - rct
+  - variable_name
+
+Table: entity_account_relation
+  - id
+  - acc_data
+  - acc_ref_id
+  - parent_entity_code
+  - entity_code
+
+Table: entity_additional_configuration_master
+  - id
+  - dist_id
+  - info_type
+  - parent_entity_code
+  - vendor_id
+  - entity_code
+
+Table: entity_contact
+  - entity_contact_id
+  - account_name
+  - address1
+  - address2
+  - city
+  - country
+  - email
+  - firstname
+  - landmark
+  - lastname
+  - mobile
+  - phone_no
+  - rct
+  - sameasowner
+  - solution
+  - state
+  - status
+  - title
+  - zip_code
+  - entity_code
+  - price_book_sku_id
+
+Table: entity_kyc_info
+  - id
+  - kyc_data
+  - entity_code
+
+Table: entity_master
+  - entity_code
+  - accounting_ref_id
+  - anniversary_date
+  - approve_by
+  - approve_datetime
+  - approve_flag
+  - avaliable_credit_limit
+  - billing_address1
+  - billing_address2
+  - billing_city
+  - billing_country
+  - billing_pincode
+  - billing_state
+  - business_type
+  - clone_entity_code
+  - co_incorporation_id
+  - company_website
+  - contact_no
+  - credit_applicable
+  - credit_grace_limit
+  - credit_grace_period
+  - credit_limit
+  - credit_period
+  - credit_prefix
+  - credit_sequence_no
+  - debit_prefix
+  - debit_sequence_no
+  - email_id
+  - entity_type
+  - entity_type_description
+  - entity_currency_code
+  - entity_name
+  - entity_status
+  - firstname
+  - icon_img
+  - industry
+  - inn_number
+  - invoice_prefix
+  - invoice_sequence_no
+  - lang
+  - lastname
+  - mailing_address1
+  - mailing_address2
+  - mailing_city
+  - mailing_country
+  - mailing_pincode
+  - mailing_state
+  - marketplace_name
+  - mobile_no
+  - order_prefix
+  - order_sequence_no
+  - price_book_id
+  - product_type
+  - rct
+  - receipt_prefix
+  - receipt_sequence_no
+  - ref_entity_id
+  - ref_reseller_entity_id
+  - region
+  - registration_date
+  - role_designation
+  - server_logo_name
+  - server_smalllogo
+  - server_smalllogo_name
+  - student_group
+  - tax_number
+  - tax_exempt
+  - tax_id
+  - university
+  - partner_id
+  - getting_started
+  - entity_segment
+  - gst
+  - mpn_id
+  - customer_template_name
+  - account_manger
+  - credit_block
+  - credit_block_reason
+  - payment_method
+  - credit_management
+  - additional_prefix
+  - additional_sequence_no
+
+Table: entity_parent_relation
+  - id
+  - entity_code
+  - parent_entity_code
+
+Table: global_settings
+  - id
+  - allow_over_usage_amount
+  - allow_over_usage_type
+  - anniversary_date
+  - annual_sales_closed_target
+  - annual_spend_target
+  - billing_auto_renew
+  - credit_limit
+  - credit_payment_terms
+  - date_format
+  - decrease_quantity
+  - disable_services
+  - increase_quantity
+  - invoice_configuration
+  - max_over_credit_limit
+  - monthly_recurring_revenue_target
+  - monthly_sales_closed_target
+  - monthly_spend_target
+  - order_processing
+  - over_limit_usage
+  - overdue_reminders_scheduler
+  - parent_entity_code
+  - payment_method
+  - payment_reminders_scheduler
+  - perpetual_revenue_target
+  - place_order
+  - place_quotation
+  - price_book_markup
+  - rct
+  - renewal_invoice_scheduler
+  - renewal_reminder_scheduler
+  - role_users
+  - service_addon_purchase
+  - service_subscription_request
+  - service_suspension_scheduler
+  - service_termination_scheduler
+  - subscription_auto_renew
+  - tax
+  - ticket_help_desk
+  - user
+  - entity_code
+
+Table: hibernate_sequence
+  - next_val
+
+Table: indirect_provider
+  - id
+  - country_code
+  - description
+  - heading
+  - indirect_partner
+  - indirect_provider
+  - logo
+
+Table: invoice_master
+  - id
+  - coupon_code
+  - currency
+  - erp_invoice_id
+  - inv_acc_ref_id
+  - invoice_date
+  - invoice_due_date
+  - invoice_footer
+  - invoice_no
+  - invoice_paid_date
+  - invoice_type
+  - mode_of_pay
+  - paid_method
+  - parent_entity_code
+  - rct
+  - receipt_no
+  - status
+  - user_id
+  - entity_code
+  - order_id
+  - transaction_value
+  - credit_period
+  - order_reference_id
+  - payment_method
+  - child_bill_address_id
+  - child_ship_address_id
+  - entity_bill_address_id
+  - entity_ship_address_id
+  - super_entity_code
+
+Table: jwt_request
+  - id
+  - entity_code
+  - password
+  - username
+  - shadowlogin
+
+Table: knowledgebase_category
+  - category_id
+  - category_name
+  - department
+  - level
+  - parent_cat_id
+  - rct
+  - entity_code
+
+Table: ledger
+  - ledger_id
+  - balance
+  - credit
+  - debit
+  - description
+  - parent_entity_code
+  - reference_no
+  - transaction_date
+  - transaction_details
+  - transaction_mode
+  - transaction_ref_id
+  - transaction_type
+  - entity_code
+  - super_entity_code
+
+Table: license_key
+  - id
+  - license_key
+  - entity_code
+
+Table: manage_kyc
+  - id
+  - custom_field_radio
+  - desciption
+  - field_label
+  - file_extension
+  - file_size
+  - show_under_module
+  - entity_code
+  - child_available
+
+Table: manage_rating_and_feedback
+  - id
+  - custom_field_radio
+  - desciption
+  - field_label
+  - field_name
+  - helptext
+  - length
+  - required
+  - entity_code
+
+Table: marketplace_special_products
+  - id
+  - marketplace_cat
+  - entity_code
+  - sku_id
+
+Table: media_library
+  - id
+  - category
+  - file
+  - file_name
+  - parent_category
+  - size
+  - entity_code
+
+Table: microsoft_token_details
+  - id
+  - client_id
+  - client_secret
+  - refresh_token
+  - resource
+  - tenant_id
+
+Table: modules
+  - module_id
+  - activate
+  - api_url
+  - company_name
+  - contact_email
+  - flag
+  - input_parameters
+  - input_values
+  - json_body
+  - module_created_by
+  - module_name
+  - rct
+  - response
+  - user_key
+  - username
+  - version
+
+Table: order_details
+  - id
+  - billing_frequency
+  - bundle_id
+  - bundle_item_type
+  - cost_price
+  - coupon_value
+  - discount
+  - dist_id
+  - domain
+  - domain_type
+  - order_date
+  - otype
+  - pid
+  - qty
+  - ref_order_item_id
+  - service_end_date
+  - service_start_date
+  - sku_id
+  - split
+  - split_into
+  - status
+  - tax_value
+  - total_amount
+  - unit_price
+  - tax_amount
+  - order_id
+  - tracking_id
+  - pro_rate
+  - additional_discount
+  - additional_discount_remark
+  - order_reference_id
+
+Table: order_master
+  - id
+  - coupon_code
+  - currency
+  - erp_order_id
+  - order_date
+  - order_due_date
+  - order_no
+  - parent_entity_code
+  - quotation_id
+  - rct
+  - ref_order_id
+  - status
+  - user_id
+  - entity_code
+  - mode_of_pay
+  - transaction_value
+  - credit_period
+  - order_reference_id
+  - payment_method
+  - child_bill_address_id
+  - child_ship_address_id
+  - entity_bill_address_id
+  - entity_ship_address_id
+  - super_entity_code
+
+Table: payment_gateway_credentials
+  - id
+  - flag
+  - input_parameters
+  - input_values
+  - parent_entity_code
+  - payment_method_name
+  - entity_code
+
+Table: payment_gateway_credentials_setup
+  - id
+  - input_parameters
+  - input_values
+  - payment_method_name
+
+Table: price_book_master
+  - price_book_id
+  - applicable_date
+  - compute_method
+  - dist_id
+  - markup_percentage
+  - price_book_currency
+  - price_book_name
+  - rate_code
+  - rct
+  - selected_products
+  - entity_code
+  - flag
+
+Table: price_book_sku
+  - id
+  - age
+  - area
+  - attachment
+  - badroom
+  - bathroom
+  - delivery_group
+  - domain_required
+  - inventory
+  - license_type
+  - logo
+  - long_product_description
+  - max
+  - max_students
+  - minmum
+  - mrp_price
+  - oem_isv
+  - offering
+  - period
+  - product_image_name
+  - product_id
+  - property_status
+  - publisher
+  - rct
+  - room
+  - short_product_description
+  - sk_status
+  - sku_id
+  - sku_name
+  - status
+  - track_delivery
+  - publisher_agreement_id
+  - product_type
+  - tags
+  - hsn_code
+  - unit
+  - product_flag
+
+Table: price_book_sku_selling_price
+  - id
+  - applicable_date
+  - billing_frequency
+  - cost_price
+  - currency
+  - days
+  - dist_id
+  - markup
+  - mrp_price
+  - rct
+  - selling_price
+  - setup_fee
+  - tax_id
+  - term
+  - term_ref
+  - price_book_id
+  - price_book_sku_id
+  - service_grp_id
+  - applicable_end_date
+
+Table: product_features
+  - prod_feat_id
+  - feature_name
+  - sku_id
+  - entity_code
+
+Table: provisioning_custom_fields
+  - id
+  - field_parameters
+  - rct
+  - sku_id
+  - status
+  - entity_code
+
+Table: provisioning_parameteres
+  - id
+  - field_type
+  - field_value
+  - rct
+  - sku_id
+  - status
+  - entity_code
+
+Table: receipt
+  - id
+  - amount
+  - description
+  - parent_entity_code
+  - payment_account_ref_id
+  - receipt_no
+  - transaction_againest
+  - transaction_date
+  - transaction_id
+  - transaction_mode
+  - transaction_status
+  - entity_code
+  - super_entity_code
+
+Table: refreshtoken
+  - id
+  - expiry_date
+  - token
+  - user_id
+
+Table: reseller_account_api_credential
+  - id
+  - account_software_name
+  - active
+  - api_url
+  - input_parameters
+  - input_values
+  - rct
+  - response
+  - entity_code
+
+Table: reseller_api_credentials
+  - id
+  - active
+  - api_url
+  - dist_id
+  - dist_name
+  - input_parameters
+  - input_values
+  - rct
+  - response
+  - vendors
+  - entity_code
+
+Table: reseller_disti_rule
+  - id
+  - cust_id
+  - order_to
+  - order_to_alternate
+  - vendor
+  - entity_code
+
+Table: reseller_price
+  - id
+  - billing_frequency
+  - cost_price
+  - currency
+  - dist_id
+  - markup
+  - mrp_price
+  - product_id
+  - rct
+  - selling_price
+  - term
+  - term_ref
+  - price_book_id
+  - price_book_sku_id
+  - service_grp_id
+  - applicable_date
+  - applicable_end_date
+
+Table: reseller_tax_api_credential
+  - id
+  - active
+  - company_code
+  - env_type
+  - input_parameters
+  - input_values
+  - mode
+  - rct
+  - tax_software_name
+  - entity_code
+
+Table: role_master
+  - role_id
+  - flag
+  - rct
+  - role_assign
+  - role_desc
+  - role_name
+  - role_short_code
+  - entity_code
+
+Table: schedule_appointment
+  - id
+  - appointment_end_date
+  - appointment_start_date
+  - contact_no
+  - description
+  - email_id
+  - entity_code
+  - event_title
+  - firstname
+  - lastname
+  - rsl_id
+  - price_book_id
+
+Table: service_category_master
+  - category_id
+  - cat_icon_img
+  - category_flag
+  - category_logo
+  - category_name
+  - description
+  - dist_id
+  - domain_required
+  - parent_cat_id
+  - rct
+  - ref_category_id
+  - status
+  - entity_code
+
+Table: service_config
+  - id
+  - dist_id
+  - field_label
+  - field_value
+  - intput_type
+  - service_detail_id
+  - vendor_id
+  - entity_code
+
+Table: service_detail
+  - id
+  - billing_auto_renewal
+  - billing_end_date
+  - billing_frequency
+  - billing_start_date
+  - bundle_id
+  - bundle_item_type
+  - cost_price
+  - dist_id
+  - domain
+  - email_notification
+  - entitlement_ids
+  - entity_additional_config_id
+  - extra_custom_info
+  - is_add_on
+  - order_id
+  - order_item_id
+  - parent_entity_code
+  - parent_service_id
+  - qty
+  - rct
+  - ref_order_id
+  - ref_srv_id
+  - renewal_cost_price
+  - renewal_selling_price
+  - selling_price
+  - sku_id
+  - split
+  - split_into
+  - status
+  - subscription_end_date
+  - subscription_id
+  - subscription_start_date
+  - subscriptional_auto_renewal
+  - total_amount
+  - entity_code
+  - pricing_info
+  - service_name
+  - additional_discount
+  - additional_discount_remark
+  - credit_period
+  - order_reference_id
+  - payment_method
+  - super_entity_code
+
+Table: sku_license_module
+  - id
+  - activate_license_module
+  - activation_date
+  - expiry_date
+  - recurring_billing
+  - restrict_quantity
+  - revenue_billing_percentage
+  - entity_code
+  - price_book_sku_id
+
+Table: smtp_settings
+  - smtp_id
+  - email_address
+  - name
+  - smtp_cred
+  - type
+  - entity_code
+
+Table: states
+  - id
+  - name
+  - country_id
+  - state_code
+
+Table: student_group_master
+  - group_id
+  - group_name
+  - entity_code
+
+Table: tax
+  - tax_id
+  - tax_name
+  - tax_rate
+  - tax_type_id
+
+Table: tax_api_info
+  - id
+  - input_parameters
+  - status
+  - tax_software_name
+
+Table: tax_group
+  - tax_group_id
+  - tax_group_description
+  - tax_group_name
+  - country_id
+
+Table: tax_rule_master
+  - id
+  - country
+  - rct
+  - states
+  - tax_applicable_on
+  - tax_rule_name
+  - tax_type
+  - entity_code
+
+Table: tax_rule_master_new
+  - id
+  - country_code
+  - rct
+  - tax_type
+  - entity_code
+
+Table: tax_type
+  - tax_type_id
+  - tax_type_name
+  - tax_group_id
+
+Table: tax_type_master
+  - id
+  - rct
+  - tax_amount
+  - tax_name
+  - entity_code
+
+Table: terms_conditions
+  - id
+  - file
+  - input_type
+  - rct
+  - type
+  - url
+  - entity_code
+
+Table: theme
+  - theme_id
+  - industry
+  - theme_name
+  - theme_string
+
+Table: theme_setting_master
+  - theme_id
+  - creation_date
+  - file
+  - file_name
+  - rct
+  - theme_meta
+  - theme_setting
+  - entity_code
+
+Table: theme_setting_temp
+  - theme_temp_id
+  - base_string
+  - creation_date
+  - file
+  - file_name
+  - rct
+  - theme_meta
+  - theme_temp_setting
+  - entity_code
+
+Table: ticket
+  - ticket_id
+  - assign_to
+  - bcc
+  - cc
+  - creation_date
+  - department
+  - flag
+  - last_activity
+  - parent_entity_code
+  - priority
+  - product_subscription
+  - rct
+  - status
+  - subject
+  - ticket_number
+  - user_id
+  - user_type
+  - entity_code
+  - issue_ids
+  - sla_hour
+  - ticket_type
+
+Table: ticket_department
+  - department_id
+  - department_name
+  - description
+  - email_id
+  - icon_img
+  - rcre_time
+  - server_logo_name
+  - status
+  - entity_code
+
+Table: ticket_details
+  - id
+  - creation_date
+  - file_name
+  - ip_address
+  - post_reply
+  - rct
+  - server_file_name
+  - star_rate
+  - user_id
+  - user_type
+  - ticket_id
+  - type_note
+
+Table: ticket_status
+  - status_id
+  - description
+  - rcre_time
+  - status
+  - ticket_status_name
+  - used_in
+  - entity_code
+
+Table: university
+  - id
+  - name
+  - country_id
+  - state_id
+
+Table: user_info
+  - id
+  - billing_address1
+  - billing_address2
+  - billing_city
+  - billing_country
+  - billing_pincode
+  - billing_state
+  - contact_no
+  - email_id
+  - email_verification
+  - firstname
+  - flag
+  - last_login
+  - lastname
+  - mobile_no
+  - password
+  - profile_pic
+  - rct
+  - region
+  - server_logo
+  - server_logo_name
+  - user_status
+  - username
+  - entity_code
+  - role_id
